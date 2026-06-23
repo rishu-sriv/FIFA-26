@@ -22,6 +22,7 @@ from sklearn.metrics import (
     classification_report, log_loss
 )
 from xgboost import XGBClassifier
+import xgboost as xgb
 
 load_dotenv()
 engine = create_engine(os.getenv("CONNECTION_STRING"))
@@ -289,3 +290,6 @@ print(f"  France Win:  {probs[0]*100:.1f}%")
 
 print("\n✅ Phase 3 Step 12 complete.")
 print("   Run 04_monte_carlo.py next to simulate the 2026 tournament.")
+
+model.get_booster().save_model('ml/xgboost_model.json')
+print("✓ Model saved as xgboost_model.json")
