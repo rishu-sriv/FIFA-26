@@ -5,8 +5,11 @@ import numpy as np
 # ============================================================
 # CONFIGURATION — paste your Supabase connection string here
 # ============================================================
-CONNECTION_STRING = "postgresql://postgres:[YOUR-PASSWORD]@db.[YOUR-REF].supabase.co:5432/postgres"
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+CONNECTION_STRING = os.getenv("CONNECTION_STRING")
 engine = create_engine(CONNECTION_STRING)
 
 print("Connected to Supabase successfully.\n")
