@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 *.pkl
+# Model outputs — regenerate by running the scripts
+ml/simulation_results.csv
+ml/xgboost_model.json
+ml/xgboost_model.pkl
+ml/feature_importance.png
