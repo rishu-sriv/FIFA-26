@@ -2,8 +2,9 @@ pandas
 sqlalchemy
 psycopg2-binary
 numpy
-matplotlib
-plotly
+python-dotenv
 scikit-learn
 xgboost
 scipy
+matplotlib
+plotly
