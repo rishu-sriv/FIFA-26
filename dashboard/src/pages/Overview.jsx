@@ -64,6 +64,7 @@ export default function Overview() {
                 dataKey="nation"
                 type="category"
                 width={110}
+                interval={0}
                 tick={{ fill: '#888', fontSize: 12 }}
                 axisLine={false}
                 tickLine={false}

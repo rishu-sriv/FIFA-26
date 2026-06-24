@@ -122,6 +122,7 @@ export default function Historical() {
                 dataKey="nation"
                 type="category"
                 width={100}
+                interval={0}
                 tick={{ fill: '#888', fontSize: 12 }}
                 axisLine={false}
                 tickLine={false}
@@ -165,6 +166,7 @@ export default function Historical() {
               dataKey="nation"
               type="category"
               width={120}
+              interval={0}
               tick={{ fill: '#888', fontSize: 12 }}
               axisLine={false}
               tickLine={false}
