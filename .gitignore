@@ -1,9 +1,19 @@
+# Environment
 .env
+
+# Python
 __pycache__/
 *.pyc
 *.pkl
-# Model outputs — regenerate by running the scripts
+
+# Model outputs — regenerate by running scripts
 ml/simulation_results.csv
 ml/xgboost_model.json
 ml/xgboost_model.pkl
 ml/feature_importance.png
+
+# Power BI data exports — regenerate by running SQL queries
+powerbi/data/
+
+# OS
+.DS_Store
