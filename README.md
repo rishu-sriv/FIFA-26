@@ -4,7 +4,7 @@
 
 Who is going to win the 2026 World Cup? I built a data platform to find out — using 150 years of international football history, machine learning, and 10,000 tournament simulations.
 
-**[Live Dashboard →](https://fifa-26.vercel.app)**
+**[Live Dashboard →](https://fifa-26-beta.vercel.app/)**
 
 ---
 
