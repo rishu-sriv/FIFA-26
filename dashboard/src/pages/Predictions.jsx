@@ -83,7 +83,7 @@ export default function Predictions() {
           title="Tournament Winner Probabilities — All 15 Nations"
           subtitle="Model output: Argentina clear favourites, substantial drop-off after Spain and Brazil"
         >
-          <ResponsiveContainer width="100%" height={310}>
+          <ResponsiveContainer width="100%" height={390}>
             <BarChart
               layout="vertical"
               data={predictions2026}
@@ -101,6 +101,7 @@ export default function Predictions() {
                 dataKey="nation"
                 type="category"
                 width={110}
+                interval={0}
                 tick={{ fill: '#888', fontSize: 12 }}
                 axisLine={false}
                 tickLine={false}
